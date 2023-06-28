@@ -1,9 +1,44 @@
 apiVersion: v1
 entries:
+  apache:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 2.4.57
+    created: "2023-06-28T17:37:32.980801022+07:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Apache HTTP Server is an open-source HTTP server. The goal of this
+      project is to provide a secure, efficient and extensible server that provides
+      HTTP services in sync with the current HTTP standards.
+    digest: 21499fb7c5f04c4cca740a5f2ec349fdbb86de48f5468c0d4389ae4cc44091f5
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/apache/img/apache-stack-220x234.png
+    keywords:
+    - apache
+    - http
+    - https
+    - www
+    - web
+    - reverse proxy
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: apache
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/apache
+    urls:
+    - apache/apache-9.6.3.tgz
+    version: 9.6.3
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-28T17:04:33.444562374+07:00"
+    created: "2023-06-28T17:37:32.981034324+07:00"
     description: A Helm chart for Kubernetes
     digest: e32ae9f59ee404ae1c1321ead24e100c2d37f44a84cb42107494eabed15b6cd4
     name: helm-chart-test
@@ -11,4 +46,73 @@ entries:
     urls:
     - helm-chart-test/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-28T17:04:33.444182747+07:00"
+  nginx:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.25.1
+    created: "2023-06-28T17:37:32.982522083+07:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: e45dd3e880e94bdb52cc88d6b4e0fbaec6876856f39a1a89f76e64d0739c2904
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/nginx
+    urls:
+    - nginx/nginx-15.0.2.tgz
+    version: 15.0.2
+  nginx-ingress-controller:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.8.0
+    created: "2023-06-28T17:37:32.98475422+07:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Ingress Controller is an Ingress controller that manages external
+      access to HTTP services in a Kubernetes cluster using NGINX.
+    digest: 24241f4e815886ec77c3a6b1e274ad0f361fe2ae4d72596365e69e39c10a0218
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/nginx-ingress-controller/img/nginx-ingress-controller-stack-220x234.png
+    keywords:
+    - ingress
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    kubeVersion: '>= 1.20.0-0'
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: nginx-ingress-controller
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/nginx-ingress-controller
+    urls:
+    - nginx-ingress-controller/nginx-ingress-controller-9.7.3.tgz
+    version: 9.7.3
+generated: "2023-06-28T17:37:32.979299436+07:00"
