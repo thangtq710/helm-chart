@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.4.57
-    created: "2023-06-28T17:37:32.980801022+07:00"
+    created: "2023-09-23T08:02:59.314557262Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -38,7 +38,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-28T17:37:32.981034324+07:00"
+    created: "2023-09-23T08:02:59.314805725Z"
     description: A Helm chart for Kubernetes
     digest: e32ae9f59ee404ae1c1321ead24e100c2d37f44a84cb42107494eabed15b6cd4
     name: helm-chart-test
@@ -52,7 +52,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.1
-    created: "2023-06-28T17:37:32.982522083+07:00"
+    created: "2023-09-23T08:02:59.316490608Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -86,7 +86,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.8.0
-    created: "2023-06-28T17:37:32.98475422+07:00"
+    created: "2023-09-23T08:02:59.318470478Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -115,4 +115,15 @@ entries:
     urls:
     - nginx-ingress-controller/nginx-ingress-controller-9.7.3.tgz
     version: 9.7.3
-generated: "2023-06-28T17:37:32.979299436+07:00"
+  thangtq-app-templates:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-23T08:02:59.31887589Z"
+    description: A Helm chart for Kubernetes
+    digest: c5da10ba42e484fa892d65fbe29dc68819e8c45a4ba6c85b71ac9e7c5bb46e02
+    name: thangtq-app-templates
+    type: application
+    urls:
+    - thangtq-app-templates/thangtq-app-templates-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-09-23T08:02:59.312584319Z"
