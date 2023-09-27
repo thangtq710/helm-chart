@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.4.57
-    created: "2023-09-26T08:16:20.997041074Z"
+    created: "2023-09-27T11:22:58.121441803Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -45,7 +45,7 @@ entries:
         url: https://argoproj.github.io/argo-helm/pgp_keys.asc
     apiVersion: v2
     appVersion: v0.12.2
-    created: "2023-09-26T08:16:20.997650331Z"
+    created: "2023-09-27T11:22:58.122523824Z"
     description: A Helm chart for Argo CD Image Updater, a tool to automatically update
       the container images of Kubernetes workloads which are managed by Argo CD
     digest: 79f40e2506c961e98ab7df0a4c2df75a10591775e383541b1849990aa054c59e
@@ -66,7 +66,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-26T08:16:20.99818587Z"
+    created: "2023-09-27T11:22:58.12334261Z"
     description: A Helm chart for Kubernetes
     digest: e32ae9f59ee404ae1c1321ead24e100c2d37f44a84cb42107494eabed15b6cd4
     name: helm-chart-test
@@ -80,7 +80,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.1
-    created: "2023-09-26T08:16:21.000123499Z"
+    created: "2023-09-27T11:22:58.125417196Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -114,7 +114,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.8.0
-    created: "2023-09-26T08:16:21.002671344Z"
+    created: "2023-09-27T11:22:58.130341472Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -146,7 +146,17 @@ entries:
   thangtq-app-templates:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-26T08:16:21.003457302Z"
+    created: "2023-09-27T11:22:58.131604374Z"
+    description: A Helm chart for Kubernetes
+    digest: 78b698672c99186b4b5b1c9d7a147fbde23ae84055ad7488d797368607e10d85
+    name: thangtq-app-templates
+    type: application
+    urls:
+    - thangtq-app-templates/thangtq-app-templates-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-27T11:22:58.130961517Z"
     description: A Helm chart for Kubernetes
     digest: c5da10ba42e484fa892d65fbe29dc68819e8c45a4ba6c85b71ac9e7c5bb46e02
     name: thangtq-app-templates
@@ -154,4 +164,4 @@ entries:
     urls:
     - thangtq-app-templates/thangtq-app-templates-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-26T08:16:20.993197241Z"
+generated: "2023-09-27T11:22:58.119398699Z"
