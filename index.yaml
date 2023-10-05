@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.4.57
-    created: "2023-10-05T09:19:47.445443843Z"
+    created: "2023-10-05T09:25:07.577985227Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -35,6 +35,23 @@ entries:
     urls:
     - apache/apache-9.6.3.tgz
     version: 9.6.3
+  apm-server:
+  - apiVersion: v1
+    appVersion: 8.5.1
+    created: "2023-10-05T09:25:07.578871455Z"
+    description: Official Elastic helm chart for Elastic APM Server
+    digest: fe28e18ce2e5e1a20c1ddc8b6afc57997c7a86168a47da469b4c198176c67261
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/apm.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: apm-server
+    sources:
+    - https://github.com/elastic/apm
+    urls:
+    - apm-server/apm-server-8.5.1.tgz
+    version: 8.5.1
   argocd-image-updater:
   - annotations:
       artifacthub.io/changes: |
@@ -45,7 +62,7 @@ entries:
         url: https://argoproj.github.io/argo-helm/pgp_keys.asc
     apiVersion: v2
     appVersion: v0.12.2
-    created: "2023-10-05T09:19:47.448089743Z"
+    created: "2023-10-05T09:25:07.579539158Z"
     description: A Helm chart for Argo CD Image Updater, a tool to automatically update
       the container images of Kubernetes workloads which are managed by Argo CD
     digest: 79f40e2506c961e98ab7df0a4c2df75a10591775e383541b1849990aa054c59e
@@ -66,7 +83,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-05T09:19:47.449315931Z"
+    created: "2023-10-05T09:25:07.579903755Z"
     description: A Helm chart for Kubernetes
     digest: e32ae9f59ee404ae1c1321ead24e100c2d37f44a84cb42107494eabed15b6cd4
     name: helm-chart-test
@@ -80,7 +97,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.1
-    created: "2023-10-05T09:19:47.452804899Z"
+    created: "2023-10-05T09:25:07.582370817Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -114,7 +131,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.8.0
-    created: "2023-10-05T09:19:47.4587438Z"
+    created: "2023-10-05T09:25:07.587164901Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -146,7 +163,7 @@ entries:
   thangtq-app-templates:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-05T09:19:47.460652972Z"
+    created: "2023-10-05T09:25:07.588142043Z"
     description: A Helm chart for Kubernetes
     digest: 78b698672c99186b4b5b1c9d7a147fbde23ae84055ad7488d797368607e10d85
     name: thangtq-app-templates
@@ -156,7 +173,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-05T09:19:47.459749289Z"
+    created: "2023-10-05T09:25:07.587674062Z"
     description: A Helm chart for Kubernetes
     digest: c5da10ba42e484fa892d65fbe29dc68819e8c45a4ba6c85b71ac9e7c5bb46e02
     name: thangtq-app-templates
@@ -164,4 +181,4 @@ entries:
     urls:
     - thangtq-app-templates/thangtq-app-templates-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-05T09:19:47.440998138Z"
+generated: "2023-10-05T09:25:07.572725427Z"
